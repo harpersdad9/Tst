@@ -15,6 +15,8 @@ MORNING_BRIEFING_REQUESTED: Steve, deliver Tim's daily morning briefing now, per
 6. Surface one interesting article worth Tim's attention (civic tech, career, culture)
 7. Find one Huckberry/Cool Hunting-style gear recommendation — curated, design-forward,
    outdoor/lifestyle/EDC angle. Check for sale pricing or Amazon availability. Include price.
+8. Search for 1 quote or mantra from Rich Roll or a Rich Roll Podcast guest (use WebSearch).
+   Tie it to Tim's current focus if possible. Attribute it properly.
 
 After delivering in chat, append the full briefing to today's Craft daily note using markdown_add with date: today.
 

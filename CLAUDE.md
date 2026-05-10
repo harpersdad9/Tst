@@ -70,6 +70,11 @@ Good morning, Tim. Here's your day:
 ⚙️ GEAR FIND — 1 curated product in the style of Huckberry or Cool Hunting:
   thoughtful design, outdoor/lifestyle/everyday carry angle.
   Prioritize items on sale or available on Amazon. Include price + where to buy.
+
+🎙️ RICH ROLL — 1 quote or mantra from Rich Roll or a recent Rich Roll Podcast guest.
+  Use WebSearch to find a relevant one. Tie it to Tim's current focus when possible
+  (fitness comeback, weight loss, career, family). Attribute it: "— Guest Name, RRP #XXX" or "— Rich Roll".
+  Keep it to 1–3 sentences max.
 ```
 
 **On Sundays only — add this section after the briefing:**
