@@ -72,6 +72,30 @@ Good morning, Tim. Here's your day:
   Prioritize items on sale or available on Amazon. Include price + where to buy.
 ```
 
+**On Sundays only — add this section after the briefing:**
+```
+📊 RICH'S WEEKLY CHECK-IN — Time to log your scorecard metrics. Read me these numbers:
+
+From Oura app (Trends tab):
+  1. Readiness Score — weekly average
+  2. HRV — weekly average (ms)
+  3. Resting Heart Rate — weekly average (bpm)
+  4. Sleep — weekly average (hours)
+
+From Apple Health (or Apple Watch app → Fitness):
+  5. Miles Run this week (total)
+  6. Peloton sessions this week (count)
+  7. Strength sessions this week (count)
+  8. Active Calories this week (total)
+
+From your scale:
+  9. Current weight (lbs) — weigh in before coffee
+
+Once you give me the numbers, I'll log them all into your weekly scorecard in Craft.
+```
+
+After Tim provides numbers on Sunday, update the current week's scorecard collection items in Craft using `collectionItems_update` with the reported values.
+
 Use `mcp__e7bce002` (Google Calendar) and `mcp__515868b1` (Craft) for live data. Use WebSearch for news and gear.
 
 ### Daily (evening — on demand, say "evening brief" or "check in")
@@ -144,26 +168,32 @@ Good evening, Tim. End-of-day check-in:
 
 ## Scorecard Metrics (track weekly)
 
-**Scorecard collection items:**
-- Network Connections (Relationships)
-- Date Night (Relationships)
-- Miles Run (Fitness)
-- Strength Workouts/Yoga (Fitness)
-- Sleep average hours (Fitness)
+**Scorecard collection items** (all in Fitness area unless noted):
+- Miles Run
+- Peloton Sessions (target: 2/week)
+- Strength Workouts/Yoga (target: 2/week)
+- Sauna/Cold Plunge (target: 2/week — Wed + Sun)
+- Sleep average hours (from Oura)
+- Resting Heart Rate (from Oura)
+- HRV avg ms (from Oura — trending up = good)
+- Oura Readiness Score (weekly avg — 85+ green, 70-84 yellow, <70 red)
+- Active Calories weekly (from Apple Health)
+- Weight lbs (Sunday weigh-in — start: 180, goal: 160)
 - Meaningful Conversations (Family)
-- Resting Heart Rate (Fitness)
+- Date Night (Relationships)
+- Network Connections (Relationships)
 
 **Areas Check-In (rate 1-5):** Fitness, Career, Relationships, Finances, Family
 
+**Sunday logging protocol (Path B):** On Sunday mornings, after the briefing, prompt Tim to read his Oura + Apple Health weekly numbers. He reads them aloud, Steve logs them into the current week's scorecard via `collectionItems_update`.
+
 ---
 
-## Apr 26 Scorecard — Context for May 4
+## May 10 Scorecard — Current Week Context
 
-- Overall rating: 4
-- Vibe: "Pretty good week. Feeling like I'm getting on track with most things. Still need to work on fitness and getting into a rhythm."
-- Carry-forward intention: **"Dialed in — Cocodona and a big trip to AZ."**
-- Fitness: Miles Run = 0, Strength = 1, Sleep = not filled, Heart Rate = not filled
-- Career: 2/5 (consistently low — 4 stalled Rocks)
-- Relationships: 4/5
-- Family: 3/5
-- Finances: 3/5
+- Scorecard ID: `3DAEB224-56C4-4889-8C91-6123D220E52F`
+- Collection ID (Scorecard metrics): `7F74EEA1-45AC-43AE-8BD9-198D794AE018`
+- Tim just returned from crewing Cocodona 250 in Arizona (Apr 30–May 10)
+- Fitness is the priority reset this week — Rich's plan starts Monday May 11
+- Career Rocks still at 0% — Jordan session overdue
+- Carry-forward intention: "Shift focus back to me and my fitness routine"
