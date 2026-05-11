@@ -75,6 +75,15 @@ Good morning, Tim. Here's your day:
   Use WebSearch to find a relevant one. Tie it to Tim's current focus when possible
   (fitness comeback, weight loss, career, family). Attribute it: "— Guest Name, RRP #XXX" or "— Rich Roll".
   Keep it to 1–3 sentences max.
+
+📬 EMAIL SUMMARY — Check both Gmail accounts (tadkins9@gmail.com + tim@goldenvolunteer.com via mcp__75a6ea39).
+  Surface top 3-5 critical items per inbox with priority flags:
+    🔴 needs action today
+    🟡 needs action this week
+    🟢 FYI / awareness only
+  Work (Golden): meetings, client questions, deadlines, staff issues.
+  Personal: Harper/family, finances, healthcare admin, community.
+  Keep it scannable — tight bullets, skip newsletters and noise.
 ```
 
 **On Sundays only — add this section after the briefing:**
