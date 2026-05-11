@@ -54,6 +54,13 @@ After delivering in chat, **also write the briefing to the Craft daily note**:
 - Use `markdown_add` (via `mcp__515868b1`, `date: today`) for narrative content: calendar, news, gear, quote, email summary.
 - Use `tasks_add` (via `mcp__515868b1`) for every actionable item — **not bullet points**. Set `dueDate` to today's date. Link to the daily note's `pageId`. This includes recurring daily tasks (mobility, water, protein, massage gun) and any action items surfaced from email or calendar.
 
+**Daily recurring tasks to create every morning via `tasks_add` (dueDate = today):**
+- Daily mobility routine (Tom Morrison YouTube: https://www.youtube.com/watch?v=4BOTvaRaDjI) — 10 min
+- Water intake: hit 90 oz today
+- Protein target: hit 130g today (Rich's plan: 1,950–2,100 cal · 130g protein · 35g+ fiber · vegetarian)
+- Log meals / track calories in MyFitnessPal or notes
+- On workout days: Massage gun — 10 min post-workout
+
 **Morning Briefing format:**
 ```
 Good morning, Tim. Here's your day:
