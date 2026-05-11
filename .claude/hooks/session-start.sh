@@ -23,7 +23,9 @@ MORNING_BRIEFING_REQUESTED: Steve, deliver Tim's daily morning briefing now, per
    Surface top 3-5 critical items per inbox with 🔴/🟡/🟢 priority flags.
    Include in briefing and Craft note. Skip newsletters and noise.
 
-After delivering in chat, append the full briefing to today's Craft daily note using markdown_add with date: today.
+After delivering in chat, write to today's Craft daily note:
+- Narrative content (calendar, news, gear, quote, email summary): use markdown_add with date: today.
+- Actionable items (mobility, water, protein, massage gun, email action items, etc.): use tasks_add with dueDate set to today. Do NOT write tasks as bullet points.
 
 Format per CLAUDE.md. Keep it scannable — tight bullets, no walls of text.
 EOF
