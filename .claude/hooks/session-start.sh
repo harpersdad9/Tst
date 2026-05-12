@@ -25,14 +25,8 @@ MORNING_BRIEFING_REQUESTED: Steve, deliver Tim's daily morning briefing now, per
 
 After delivering in chat, write to today's Craft daily note:
 - Narrative content (calendar, news, gear, quote, email summary): use markdown_add with date: today.
-- Use tasks_add (dueDate = today) for ALL actionable items. Do NOT write tasks as bullet points.
-  Always create these daily recurring tasks:
-    * Daily mobility routine (Tom Morrison YouTube) — 10 min
-    * Water intake: hit 90 oz today
-    * Protein target: hit 130g today (1,950-2,100 cal goal, 35g+ fiber, vegetarian)
-    * Log meals / track calories
-    * Massage gun — 10 min post-workout (on workout days)
-  Plus any action items from email or calendar.
+- Use tasks_add (dueDate = today) ONLY for NEW action items from email or calendar. Do NOT write tasks as bullet points.
+- Do NOT re-create recurring daily tasks (mobility, water, protein, meal log, massage gun) — these are already repeating tasks in Craft and auto-roll each day.
 
 Format per CLAUDE.md. Keep it scannable — tight bullets, no walls of text.
 EOF
